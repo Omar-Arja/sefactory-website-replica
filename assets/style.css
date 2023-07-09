@@ -501,7 +501,7 @@ iframe {
 
 .card-footer strong {
     font-size: 16px;
-    width: 20vw;
+    width: 21vw;
     font-weight: 800;
     align-self: stretch;
     text-align: right;
@@ -519,8 +519,93 @@ iframe {
     object-fit: cover;
     border-radius: 10px;
 }
+
 .card-text p {
     font-size: 14px;
     line-height: 1.5;
     color: #dcdee1;
+}
+
+.hire-section {
+    padding: 50px 70px 70px 70px;
+    background-color: #363738;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.hire-section .section-content-title h1 {
+    color: #f1f2f3;
+}
+
+.hire-container {
+    margin-bottom: 4%;
+    background-color: #232323;
+    border-radius: 20px;
+    flex: 1;
+    align-self: stretch;
+    padding: 40px;
+    line-height: 1.5;
+}
+
+.hire-container h2 {
+    font-size: 22px;
+    color: #fcfcfd;
+    font-weight: 900;
+}
+
+.hire-container h5 {
+    padding: 15px 20px;
+    color: #fcfcfd;
+    background-color: #363738;
+    font-weight: 400;
+}
+
+.hire-container span {
+    color: #28eea7;
+}
+
+.hire-container ol {
+    margin-top: 10px;
+    padding-left: 40px;
+    font-size: 15px;
+    color: #dcdee1;
+    line-height: 1.5;
+}
+
+.hire-container p {
+    color: #dcdee1;
+}
+
+.hire-container a {
+    display: flex;
+    color: #fcfcfd;
+    background-color: #363738;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-self: stretch;
+    text-align: right;
+    padding: 15px 20px;
+    font-weight: 800;
+}
+
+.hire-footer {
+    gap: 10px;
+    justify-content: flex-end;
+    font-weight: lighter;
+    font-size: 19px;
+    color: #dcdee1;
+    display: flex;
+    background-color: #232323;
+    border-radius: 20px;
+    flex: 1;
+    align-self: stretch;
+    padding: 10px;
+}
+
+.hire-footer a {
+    padding-top: 12px;
+    margin: 0;
+    text-decoration: none;
 }
