@@ -236,7 +236,7 @@ body {
 .section-content-title h1 {
     padding-left: 20px;
     line-height: 1.4;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 800;
     color: #363738;
     text-align: left;
@@ -274,6 +274,13 @@ body {
 
 .circle-grey {
     background-color: #dcdee1;
+    border-radius: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.circle-dark-grey {
+    background-color: #a5a6a9;
     border-radius: 20px;
     width: 24px;
     height: 24px;
@@ -401,4 +408,119 @@ iframe {
     content: "_";
     padding-right: 8px;
     font-size: 8px;
+}
+
+.programs-section {
+    padding: 50px 70px 70px 70px;
+    background-color: rgba(40, 238, 167, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.programs-section .section-content-title h1 {
+    background-color: #363738;
+    color: #f1f2f3;
+    padding-right: 20px;
+    padding-bottom: 7px;
+}
+
+.programs-titles {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: -20px;
+    text-align: left;
+    color: #363738;
+    font-size: 12px !important;
+    padding-left: 1%;
+    align-self: flex-start;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.programs-titles h2 {
+    padding: 20px 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-container {
+    margin-top: 0;
+    background-color: #363738;
+    display: flex;
+    gap: 40px;
+    border-radius: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.card-container h1 {
+    font-size: 24px;
+}
+
+.card-container span {
+    color: #28eea7;
+}
+
+.card-text {
+    grid-row-gap: 24px;
+    color: #fcfcfd;
+    border-radius: 20px;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-start;
+    padding: 40px;
+    display: flex;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card-footer a {
+    text-decoration: none;
+    color: #fcfcfd;
+    text-align: left;
+    background-color: #232323;
+    flex: none;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    display: flex;
+}
+
+.card-footer strong {
+    font-size: 16px;
+    width: 20vw;
+    font-weight: 800;
+    align-self: stretch;
+    text-align: right;
+}
+
+.card-img img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card-img {
+    width: 400px;
+    height: 400px;
+    min-height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card-text p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #dcdee1;
 }
