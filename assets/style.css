@@ -842,6 +842,7 @@ iframe {
 
 .map-container iframe {
     border-radius: 10px;
+    position: relative;
 }
 
 .directions {
@@ -867,6 +868,7 @@ iframe {
     display: flex;
     background-color: #363738;
     border-radius: 20px;
+    line-height: 1;
 }
 
 .contact-us-form span {
@@ -1024,3 +1026,110 @@ iframe {
     border: 0;
     cursor: pointer;
 }
+
+footer {
+    background-color: #232323;
+    flex: 1;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding: 50px 70px 70px 70px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.subleft1 {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.subleft2 {
+    margin-top: 85px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.footer-left h3 {
+    color: #dcdee1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16px;
+}
+
+footer a {
+    font-weight: bold;
+    color: #a5a6a9;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.subright1 {
+    margin-bottom: 0;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.subright2 {
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -12px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.subright2 img {
+    background-color: #a5a6a9;
+    border-radius: 7px;
+    margin-left: 12px;
+    padding: 5px;
+}
+
+footer p {
+    color: #a5a6a9;
+    font-size: 12px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    margin-top: 7.2%;
+}
+
+.footer-bottom a {
+    font-size: 14px;
+}
+
