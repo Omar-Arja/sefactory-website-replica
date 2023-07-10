@@ -929,6 +929,7 @@ iframe {
     text-transform: uppercase;
     font-weight: 800;
     cursor: pointer;
+    border: 0;
 }
 
 .partners-section {
@@ -957,4 +958,69 @@ iframe {
 .image-p-container img {
     height: 80px;
     object-fit: contain;
+}
+
+.newsletter-section {
+    padding: 50px 70px 70px 70px;
+    background-color: #363738;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.newsletter-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.newsletter-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 0;
+    color: #fcfcfd;
+    font-size: 14px;
+}
+
+.newsletter-text span {
+    color: #28eea7;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.newsletter-text p {
+    color: #a5a6a9;
+}
+
+.newsletter-form {
+    flex: 0 auto;
+    justify-content: flex-end;
+    align-self: center;
+    align-items: center;
+    display: flex;
+}
+
+.newsletter-form input {
+    height: 45px;
+    margin-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.newsletter-form button {
+    height: 45px;
+    background-color: #232323;
+    flex: 1;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    font-weight: 800;
+    color: #fcfcfd;
+    border: 0;
+    cursor: pointer;
 }
